@@ -2,7 +2,7 @@ import axios, { AxiosRequestConfig, AxiosInstance } from 'axios'
 import store from '../Store/store'
 
 const axiosConfig: AxiosRequestConfig = {
-	baseURL: process.env.URL || 'http://localhost:8080',
+	baseURL:'https://dashboardtesttask.herokuapp.com/',
 }
 
 class Api {
