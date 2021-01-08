@@ -2,7 +2,7 @@ import axios, { AxiosRequestConfig, AxiosInstance } from 'axios'
 import store from '../Store/store'
 
 const axiosConfig: AxiosRequestConfig = {
-	baseURL:'https://dashboardtesttask.herokuapp.com/',
+	baseURL:'https://dashboardtesttask.herokuapp.com',
 }
 
 class Api {
