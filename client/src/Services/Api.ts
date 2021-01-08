@@ -2,7 +2,7 @@ import axios, { AxiosRequestConfig, AxiosInstance } from 'axios'
 import store from '../Store/store'
 
 const axiosConfig: AxiosRequestConfig = {
-	baseURL: 'http://localhost:8080',
+	baseURL: process.env.URL || 'http://localhost:8080',
 }
 
 class Api {
